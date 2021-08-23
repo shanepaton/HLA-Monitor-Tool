@@ -1,5 +1,5 @@
 # HLA-TV-Tool
-A tool to replace the video feed on Alyx's monitors in the beginning of Half-life: Alyx.
+A tool to replace the video feed on Alyx's TVs in the beginning of Half-life: Alyx.
 
 <!-- PREREQUISITES -->
 ## Prerequisites
