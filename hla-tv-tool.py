@@ -26,7 +26,6 @@ root['bg']='#37474f'
 
 photo = PhotoImage(file="./logo.png")
 root.iconphoto(False, photo)
-root.iconbitmap('./logo.png')
 
 style = ttk.Style()
 
@@ -96,6 +95,7 @@ def updateVideo():
             )
 
 
+
 rightFrame = Frame(root)
 rightFrame['bg']='#37474f'
 
@@ -103,7 +103,7 @@ buttonFrame = Frame(rightFrame)
 buttonFrame['bg']='#37474f'
 
 programLabel = Label(rightFrame, text="HLA TV Tool", state='normal', borderwidth=0, bg="#37474f", fg="white")
-
+programLabel.config(font=(programLabel["font"], 18))
 
 # open button
 gameFolderButton = Button(buttonFrame,text="Alyx Folder", command=getAlyxDirectory, bg="#263238", fg="white", border=0, padx=5,pady=5)
