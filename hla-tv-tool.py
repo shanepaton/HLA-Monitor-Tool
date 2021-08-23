@@ -19,7 +19,7 @@ else:
 
 # create the root window
 root = tk.Tk()
-root.title('HLA Monitor Tool')
+root.title('HLA TV Tool')
 root.resizable(False, False)
 root.geometry('720x480')
 root['bg']='#37474f'
@@ -102,7 +102,7 @@ rightFrame['bg']='#37474f'
 buttonFrame = Frame(rightFrame)
 buttonFrame['bg']='#37474f'
 
-programLabel = Label(rightFrame, text="HLA Monitor Tool", state='normal', borderwidth=0, bg="#37474f", fg="white")
+programLabel = Label(rightFrame, text="HLA TV Tool", state='normal', borderwidth=0, bg="#37474f", fg="white")
 
 
 # open button
