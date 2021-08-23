@@ -3,7 +3,7 @@ A tool to replace the video feed on Alyx's monitors in the beginning of Half-lif
 
 <!-- PREREQUISITES -->
 ## Prerequisites
-HLA-Monitor-Tool requires Python 3.9, it can be installed from https://www.python.org/downloads/
+HLA-TV-Tool requires Python 3.9, it can be installed from https://www.python.org/downloads/
 
 <!-- INSTALLATION -->
 ## Installation
